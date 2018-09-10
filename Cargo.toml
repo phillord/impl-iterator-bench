@@ -1,0 +1,14 @@
+[package]
+name = "impl_iterator_bench"
+version = "0.1.0"
+authors = ["Phillip Lord <phillip.lord@russet.org.uk>"]
+
+[dependencies]
+either = "1.5.0"
+
+[dev-dependencies]
+bencher="0.1.4"
+
+[[bench]]
+name = "impl"
+harness = false
